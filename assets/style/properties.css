@@ -1,0 +1,46 @@
+:root {
+    /* Colors */
+    --text-deep-dark: #010304;
+    --text-turquoise-light: #99e6fa;
+    --text-sky-light: #acebfb;
+    --text-turquoise-mid: #57bcd6;
+
+    /* Font Sizes */
+    --text-lg: 24px;
+    --text-xl: 25px;
+    --text-4xl: 112px;
+    --text-sm: 18px;
+
+    /* Background Colors */
+    --bg-gradient-deep: linear-gradient(231deg, #09191c 24.52%, #010303 100%);
+    --bg-gradient-sky: linear-gradient(266deg, #acebfb 0%, #85e1f9 100%);
+    --bg-gradient-sky-fade: linear-gradient(
+        267deg,
+        rgba(172, 235, 251, 0) 2.31%,
+        rgba(133, 225, 249, 0.15) 97.69%
+    );
+    --bg-aqua-overlay: rgba(34, 123, 145, 0.1);
+
+    /* Font Weights */
+    --text-regular: 400;
+    --text-bold: 700;
+
+    /* Font Family */
+    --text-primary: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: var(--text-primary);
+}
+
+a {
+    text-decoration: none;
+}
