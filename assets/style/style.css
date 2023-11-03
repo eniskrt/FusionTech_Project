@@ -195,6 +195,11 @@ div.container .middle-line{
     height: 709.5px;
     background: linear-gradient(360deg, #01040E,#3353AA,#CAE6F8 );
 }
+.container .right img{
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
+}
 @media screen and (max-width:1050px) {
     body{
         height: 100vh;
@@ -212,3 +217,4 @@ div.container .middle-line{
         height: auto;
     }
 }
+
