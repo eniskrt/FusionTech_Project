@@ -195,19 +195,21 @@ div.container .middle-line{
     height: 709.5px;
     background: linear-gradient(360deg, #01040E,#3353AA,#CAE6F8 );
 }
-.container .right img{
-    width: 450px;
+.container .right{
+    background-image: url("../images/hand.png");
+    background-size: cover;
     object-fit: cover;
     object-position: top;
+    width: 600px;
+    height: 709.5px;
 }
 @media screen and (max-width:1050px) {
-    body{
-        height: 100vh;
-    }
+    
     .container{
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        height: 1200px;
     }
     .container .middle-line{
         display: none;
